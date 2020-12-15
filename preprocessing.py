@@ -4,7 +4,7 @@ import os
 import imutils
 import numpy
 from matplotlib import pyplot as plt
-dirname=r"C:\Users\inspiron\Desktop\Train1\NBio\*.jpg"
+dirname=r"smart-garbage-classifier\Train1\NBio\*.jpg"
 path=r"smart-garbage-classifier"
 k=0;
 for i in glob.glob(dirname):
